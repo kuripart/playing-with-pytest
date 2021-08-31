@@ -4,6 +4,11 @@
 
 > [Check Git Repo](https://github.com/spulec/moto)
 
+## Installing Dependencies
+
+```bash
+python3.7 -m pip install boto3 moto pytest
+```
 
 ## Great tutorials here:
 
