@@ -22,3 +22,24 @@ test_ec2.py .                           [ 16%]
 test_s3.py ...                          [ 66%]
 test_sqs.py ..                          [100%]
 ```
+
+# Playing with `pytest-mock`
+
+
+## Install
+
+```bash
+>  pip install pytest-mock
+```
+
+## Run tests
+
+```bash
+> pytest .\tests\
+================= test session starts ================
+collected 3 items
+
+tests\test_demo_a.py .                  [ 33%] 
+tests\test_demo_b.py .                  [ 66%] 
+tests\test_demo_c.py .                  [100%] 
+```
